@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar,
+.footer {
+  padding: 16px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand,
+.navbar-links,
+.sidebar {
+  display: flex;
+  gap: 12px;
+}
+
+.brand {
+  font-weight: bold;
+}
+
+.brand-mark {
+  display: none;
+}
+
+.navbar-links {
+  flex-wrap: wrap;
+}
+
+.app-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+
+.sidebar {
+  flex-direction: column;
+  padding: 16px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar h2 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.app-content {
+  padding: 24px;
+}
+
+.page h1,
+.landing h1 {
+  margin-top: 0;
+}
+
+.status-panel {
+  margin-top: 24px;
+}
+
+.status-value {
+  font-weight: bold;
+}
+
+.status-dot {
+  display: none;
+}
+
+.footer {
+  border-top: 1px solid #ddd;
+  border-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .navbar,
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .app-body {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    border-right: 0;
+    border-bottom: 1px solid #ddd;
+  }
+}
