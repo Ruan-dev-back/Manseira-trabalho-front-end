@@ -2,19 +2,21 @@
   <aside class="sidebar">
     <section>
       <h2>Aluno</h2>
-      <RouterLink to="/feed">Aulas em destaque</RouterLink>
-      <RouterLink to="/my-videos">Meus videos</RouterLink>
-      <RouterLink to="/my-playlists">Minhas playlists</RouterLink>
-      <RouterLink to="/notifications">Notificacoes</RouterLink>
-      <RouterLink to="/profile/me">Meu perfil</RouterLink>
+      <RouterLink to="/feed">Explorar cursos</RouterLink>
+      <RouterLink to="/my-courses">Meus cursos</RouterLink>
+    </section>
+
+    <section>
+      <h2>Instrutor</h2>
+      <RouterLink to="/upload">Upload de videoaula</RouterLink>
     </section>
 
     <section>
       <h2>Admin</h2>
       <RouterLink to="/admin/dashboard">Dashboard</RouterLink>
-      <RouterLink to="/admin/reports">Denuncias</RouterLink>
       <RouterLink to="/admin/users">Usuarios</RouterLink>
-      <RouterLink to="/admin/videos">Videos</RouterLink>
+      <RouterLink to="/admin/courses">Cursos</RouterLink>
+      <RouterLink to="/admin/categories">Categorias</RouterLink>
     </section>
   </aside>
 </template>

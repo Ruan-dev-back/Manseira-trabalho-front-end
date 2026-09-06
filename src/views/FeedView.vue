@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h1>Aulas em destaque</h1>
-    <p>Em construcao.</p>
+    <h1>Explorar cursos por categorias</h1>
+    <p>Feed Geral e Feed Seguindo. Em construção.</p>
   </div>
 </template>

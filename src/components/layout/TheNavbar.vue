@@ -7,8 +7,8 @@
 
     <nav class="navbar-links" aria-label="Navegacao principal">
       <RouterLink to="/feed">Feed</RouterLink>
-      <RouterLink to="/search">Buscar</RouterLink>
-      <RouterLink to="/videos/upload">Enviar video</RouterLink>
+      <RouterLink to="/my-courses">Meus cursos</RouterLink>
+      <RouterLink to="/upload">Upload de videoaula</RouterLink>
       <RouterLink to="/login">Login</RouterLink>
     </nav>
   </header>
